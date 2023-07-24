@@ -6,7 +6,7 @@ Welcome to the UCT ARU GitHub Organisation. This organisation is used to host co
 
 The **African Robotics Unit** (ARU) is a research unit within the [Department of Electrical Engineering](http://www.ee.uct.ac.za/) at the [University of Cape Town](http://www.uct.ac.za/). The ARU is a multidisciplinary research unit that focuses on the development of robotics and autonomous systems for application in the African context.
 
-The objective of the ARU is to study problems that we, as Africans, are uniquely positioned to solve.
+The objective of the ARU is to study robotic problems that we, as Africans, are uniquely positioned to solve.
 
 ## Research
 
