@@ -20,4 +20,10 @@ Our main research areas are:
 
 Please visit the [ARU Website](https://www.africanroboticsunit.com) for more information on the unit - including our members, publications, available positions and contact information - as well as our social media accounts listed above.
 
+## Students
+
+Are you a student who needs access to this GitHub organisation?
+
+Please request access by [opening a "Join Request" issue](https://github.com/African-Robotics-Unit/.github/issues/new/choose) on the [African-Robotics-Unit/.github repository](https://github.com/African-Robotics-Unit/.github).
+
 ___
