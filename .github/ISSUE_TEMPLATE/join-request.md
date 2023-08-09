@@ -15,4 +15,4 @@ Please complete the following details, replacing the following fields with your 
 
 Your request will be attended to soon.
 
-Please note that 2-factor authentication is required to join this org. Please enable this feature now under _Settings > Password and authentication > Two-factor authentication_.
+Please note that 2-factor authentication is required to join this org. If you do not already have it, please set this feature now under _Settings > Password and authentication > Two-factor authentication_.
