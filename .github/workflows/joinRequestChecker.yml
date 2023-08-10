@@ -11,29 +11,15 @@ jobs:
     permissions:
       issues: write
 
+    if: contains(github.event.issue.body, '4th Year') || contains(github.event.issue.body, 'External')
+
     steps:
-      - name: Add Invalid if 4th Year
-        if: contains(github.event.issue.body, '4th Year')
+      - name: Add Invalid
         uses: actions-cool/issues-helper@v3
         with:
           actions: "add-labels"
           labels: "invalid"
 
-      - name: Add Invalid if External
-        if: contains(github.event.issue.body, 'External')
-        uses: actions-cool/issues-helper@v3
-        with:
-          actions: "add-labels"
-          labels: "invalid"
-
-  comment_invalid:
-    name: Comment Invalid
-    runs-on: ubuntu-latest
-    needs: mark-invalid
-    permissions:
-      issues: write
-    if: github.event.label.name == 'invalid'
-    steps:
       - name: Comment Invalid
         uses: actions-cool/issues-helper@v3
         with:
