@@ -1,6 +1,8 @@
 name: Join Request
 description: Request to Join the ARU GitHub Org
 title: ARU Org Join Request
+labels:
+  - "join request"
 assignees:
   - "LawrenceStanton"
 
