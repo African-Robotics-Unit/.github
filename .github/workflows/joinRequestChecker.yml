@@ -1,0 +1,40 @@
+name: "Check Join Request"
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  mark-invalid:
+    name: Mark Invalid
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    if: github.event.issue.body.year == '4th Year'
+    steps:
+      - name: Add Invalid if 4th Year
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "add-labels"
+          labels: "invalid"
+
+  comment_invalid:
+    name: Comment Invalid
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    if: github.event.label.name == 'invalid'
+    steps:
+      - name: Comment if 4th Year
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "create-comment"
+          body: |
+            4th Years are not permitted to join this Org.
+
+            Please reopen and comment on this issue if you believe you have been granted and exception by your supervisor.
+
+      - name: Close Issue
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "close-issue"
