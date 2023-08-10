@@ -10,9 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-    if: contains(github.event.issue.body, '4th Year') || contains(github.event.issue.body, 'External')
+
     steps:
       - name: Add Invalid if 4th Year
+        if: contains(github.event.issue.body, '4th Year')
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: "add-labels"
+          labels: "invalid"
+
+      - name: Add Invalid if External
+        if: contains(github.event.issue.body, 'External')
         uses: actions-cool/issues-helper@v3
         with:
           actions: "add-labels"
