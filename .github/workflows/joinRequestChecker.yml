@@ -2,7 +2,7 @@ name: "Check Join Request"
 
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened]
 
 jobs:
   mark-invalid:
