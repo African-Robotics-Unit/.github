@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       issues: write
-    if: github.event.issue.body.year == '4th Year'
+    if: contains(github.event.issue.body, '4th Year') || contains(github.event.issue.body, 'External')
     steps:
       - name: Add Invalid if 4th Year
         uses: actions-cool/issues-helper@v3
@@ -25,12 +25,14 @@ jobs:
       issues: write
     if: github.event.label.name == 'invalid'
     steps:
-      - name: Comment if 4th Year
+      - name: Comment Invalid
         uses: actions-cool/issues-helper@v3
         with:
           actions: "create-comment"
           body: |
-            4th Years are not permitted to join this Org.
+            This issue was marked as invalid because you do not meet the criteria for joining this Org.
+
+            4th Years are not permitted to join this Org, only postgraduate students. External collaborators are also not permitted to join this Org, and must be added as collaborators to individual repositories.
 
             Please reopen and comment on this issue if you believe you have been granted and exception by your supervisor.
 
