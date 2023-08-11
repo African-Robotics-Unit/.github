@@ -27,9 +27,10 @@ jobs:
           body: |
             This issue was marked as invalid because you do not meet the criteria for joining this Org.
 
-            4th Years are not permitted to join this Org, only postgraduate students. External collaborators are also not permitted to join this Org, and must be added as collaborators to individual repositories.
+            4th Year students are not permitted to join this Org, only UCT postgraduate students and staff are.
+            External collaborators are also not permitted to join this Org, and must be added as collaborators to individual repositories.
 
-            Please reopen and comment on this issue if you believe you have been granted and exception by your supervisor.
+            Please reopen and comment on this issue if you believe you have been granted and exception.
 
       - name: Close Issue
         uses: actions-cool/issues-helper@v3

@@ -55,7 +55,9 @@ body:
     id: conduct
     attributes:
       label: Code of Conduct
-      description: Upon joining the ARU GitHub Org, you agree to read and abide by the ARU GitHub Org Code of Conduct and its required standards. This may be found on the [ARU GitHub Org Overview](https://github.com/African-Robotics-Unit) page once you are admitted.
+      description: |
+        Upon joining the ARU GitHub Org, you agree to read and abide by the ARU GitHub Org Code of Conduct and its required standards.
+        This may be found on the [ARU GitHub Org Overview](https://github.com/African-Robotics-Unit) page once you are admitted.
       options:
         - label: I agree
           required: true
