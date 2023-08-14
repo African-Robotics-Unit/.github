@@ -33,6 +33,17 @@ body:
       required: true
 
   - type: dropdown
+    id: type
+    attributes:
+      label: Membership Type
+      description: Please confirm whether you are requesting to join the ARU GitHub Org as a member or as a collaborator.
+      options:
+        - Member
+        - Collaborator
+    validations:
+      required: true
+
+  - type: dropdown
     id: role
     attributes:
       label: Role
