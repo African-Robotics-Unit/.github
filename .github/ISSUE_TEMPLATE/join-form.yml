@@ -16,6 +16,8 @@ body:
       value: |
         Thank you for your interest in joining the ARU GitHub Org. This form is used to request access to the ARU GitHub Org.
 
+        > If submitting this issue in any repository other than [`African-Robotics-Unit/.github`](https://github.com/African-Robotics-Unit/.github), this will be assumed to be a request to collaborate on that repository only.
+
         The [African Robotics Unit (ARU) GitHub Organisation](https://github.com/African-Robotics-Unit) is a private organisation for ARU postgraduate students and staff.
         If you are eligible to join, you may be admitted as a member to this organisation.
 
