@@ -68,7 +68,7 @@ body:
         _For membership requests only._
 
         Please list the teams you require access to.
-      placeholder: "`@SHARC`"
+      placeholder: "* `@SHARC`"
 
   - type: textarea
     id: repositories
@@ -77,26 +77,25 @@ body:
       description: |
         _For collaborator requests only._
 
-        Please list the repositories you require access to.
-      placeholder: "[`African-Robotics-Unit/.github`](https://github.com/African-Robotics-Unit/.github)"
+        Please list the repositories you require collaborator access to.
+      placeholder: "* [`African-Robotics-Unit/.github`](https://github.com/African-Robotics-Unit/.github)"
 
   - type: textarea
     id: info
     attributes:
       label: Special Requests
       description: Should you require any special permissions, access to private repositories, etc. or otherwise that you require from admin, please specify them here.
-      placeholder: Maintainer privileges for the [`.github-private`](https://github.com/African-Robotics-Unit/.github-private) repository, add me as an org owner...
+      placeholder: Maintainer privileges for _this_ repository, add me as an org owner...
 
   - type: checkboxes
     id: conduct
     attributes:
       label: Code of Conduct
       description: |
-        _For membership requests only._
+        _Applicable to membership requests only._
 
         Upon joining the ARU GitHub Org, you agree to read and abide by the ARU GitHub Org Code of Conduct and its required standards.
         This may be found on the [ARU GitHub Org Overview](https://github.com/African-Robotics-Unit) page once you are admitted.
       options:
         - label: I agree
-        - label: N/A
           required: true
