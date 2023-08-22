@@ -2,6 +2,10 @@
 
 Welcome to the UCT ARU GitHub Organisation. This organisation is used to host code and other assets developed by the ARU.
 
+___
+**Please note we have recently enabled 2FA as a requirement for this Organisation. If you have been removed, please [enable 2FA](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication) and submit a new [join request](#joining-this-organisation) below.**
+___
+
 ## About
 
 The **African Robotics Unit** (ARU) is a research unit within the [Department of Electrical Engineering](http://www.ee.uct.ac.za/) at the [University of Cape Town](http://www.uct.ac.za/). The ARU is a multidisciplinary research unit that focuses on the development of robotics and autonomous systems for application in the African context.
