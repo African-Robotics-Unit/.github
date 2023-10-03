@@ -110,5 +110,19 @@ body:
         Upon joining the ARU GitHub Org, you agree to read and abide by the ARU GitHub Org Code of Conduct and its required standards.
         This may be found on the [ARU GitHub Org Overview](https://github.com/African-Robotics-Unit) page once you are admitted.
       options:
-        - label: I agree
+        - label: I agree.
+          required: true
+  - type: checkboxes
+    id: email
+    attributes:
+      label: Email Address Confirmation
+      description: |
+        _Applicable to UCT Students and Staff only._
+
+        Please note that UCT's email address filters will block all emails from GitHub. This is a hard block that will not even reach the Junk folder.
+        Please therefore ensure that you either change your primary email address on GitHub to some other private email address, e.g. GMail, or explicitly authorise GitHub on your email server preferences.
+
+        Without doing the above, you will not receive any emails from GitHub, including the invite to join the ARU GitHub Org.
+      options:
+        - label: I confirm that I have read and understood the above.
           required: true
