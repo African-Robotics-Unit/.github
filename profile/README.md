@@ -32,3 +32,9 @@ Are you a student, staff member, or external collaborator who needs access to th
 Please request access by [opening a "Join Request" issue](https://github.com/African-Robotics-Unit/.github/issues/new/choose) on the [African-Robotics-Unit/.github repository](https://github.com/African-Robotics-Unit/.github).
 
 ___
+
+<div align="center">
+
+&copy; 2024 [University of Cape Town](https://uct.ac.za)
+
+</div>
