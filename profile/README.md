@@ -1,6 +1,6 @@
 # UCT African Robotics Unit
 
-![ARU Logo Wide](./aru-logo-wide.png)
+![ARU Logo Wide](https://github.com/African-Robotics-Unit/.github/blob/main/profile/aru-logo-wide.png)
 
 Welcome to the UCT ARU GitHub Organisation. This organisation is used to host code and other assets developed by the ARU.
 
