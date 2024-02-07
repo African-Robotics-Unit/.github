@@ -14,9 +14,12 @@ The objective of the ARU is to study robotic problems that we, as Africans, are 
 
 Our main research areas are:
 
-- **Bio-Inspired Robotics** - Development of biologically inspired robots with advanced motion capture and control systems technologies.
-- **Autonomous Vehicles** - Development of mapping and navigational systems for autonomous vehicles using a variety of sensors and machine learning techniques.
-- **Marine Robotics** - Development of scientific mechatronic systems for research and exploration, particularly in Antarctica and Southern Ocean, in collaboration with the [UCT MARiS](https://maris.uct.ac.za) interdisciplinary centre.
+- **Bio-Inspired Robotics** \
+  Biologically inspired robots with advanced motion capture and control systems technologies.
+- **Autonomous Vehicles** \
+  Mapping and navigational systems for autonomous vehicles using a variety of sensors and machine learning techniques.
+- **Marine Robotics** \
+  Scientific mechatronic systems for research and exploration, particularly in Antarctica and Southern Ocean, in strong collaboration with the [UCT MARiS](https://maris.uct.ac.za) interdisciplinary centre.
 
 ## More Information
 
@@ -24,7 +27,7 @@ Please visit the [ARU Website](https://www.africanroboticsunit.com) for more inf
 
 ## Joining this Organisation
 
-Are you a student or staff member who needs access to this GitHub organisation?
+Are you a student, staff member, or external collaborator who needs access to this GitHub organisation?
 
 Please request access by [opening a "Join Request" issue](https://github.com/African-Robotics-Unit/.github/issues/new/choose) on the [African-Robotics-Unit/.github repository](https://github.com/African-Robotics-Unit/.github).
 
