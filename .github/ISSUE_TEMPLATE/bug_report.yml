@@ -1,14 +1,15 @@
 name: Bug Report
 description: File a bug report
-title: "[BUG] "
+title: "[BUG]: "
 labels: ["bug"]
-assignees: []
+assignees:
+  - placeholder
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
+  - type: textarea
     id: what-happened
     attributes:
       label: What happened?
