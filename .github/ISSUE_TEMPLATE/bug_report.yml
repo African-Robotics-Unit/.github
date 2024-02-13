@@ -1,8 +1,9 @@
 name: Bug Report
 description: File a bug report
-title: "[BUG] "
+title: "[BUG]: "
 labels: ["bug"]
-assignees: []
+assignees:
+  - placeholder
 body:
   - type: markdown
     attributes:
